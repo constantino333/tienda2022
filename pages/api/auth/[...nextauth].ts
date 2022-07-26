@@ -25,9 +25,9 @@ const options: NextAuthOptions = {
                 password: {  label: "Password", type: "password" }
             },
             async authorize(credentials, req) {
-                const email = credentials.email;
-                const password = credentials.password;
-                console.log(password);
+                // const email = credentials.email;
+                // const password = credentials.password;
+                // console.log(password);
 
                 // console.log(Users);
 
